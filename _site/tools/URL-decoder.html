@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>URL Decoder</title>
+    </head>
+    <body>
+        <textarea rows="30" cols="100" id="url"></textarea>
+        <script>
+            var url = document.getElementById('url');
+            url.onchange = function(e) {
+                var value = e.target.value;
+                url.value = decodeURIComponent(value);
+                console.log('write')
+                navigator.clipboard.writeText(url.value);
+            };
+        </script>
+    </body>
+</html>
