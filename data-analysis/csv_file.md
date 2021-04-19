@@ -38,3 +38,9 @@ Many CSV processor tools like Microsoft Excel, Python Pandas assume the data typ
 ### CSV and NoSQL
 
 - more solid schema
+
+
+## CSV Processor
+
+- When represent table, you can treat each row as an object, the whole table as a list of rows.
+- Don't store value in a list, at least keep the name of columns. List slicing is not robust method.
