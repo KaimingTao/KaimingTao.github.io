@@ -2,7 +2,7 @@
 
 Version: 0.1
 
-CSV is a very common file format to store and transfering data. We can treat CSV as table-like, the same as relational database table, and Microsoft Excel.
+CSV is a very common file format to store and transfer data. We can treat CSV as table-like object, the same as relational database table, and Microsoft Excel.
 
 CSV has some features other table-like data processing tools don't have.
 
