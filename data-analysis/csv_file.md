@@ -25,3 +25,16 @@ Here I provided protocol for CSV file used in data analysis.
 ### Additional issues
 
 Many CSV processor tools like Microsoft Excel, Python Pandas assume the data type in a column. This feature causes many problems than the problems it solves.
+
+
+## Compare CSV with DB software
+
+### CSV and Relational data
+
+- flexible schema
+- You can use csv processor to modify schema for
+    - more easily generate figures in R, the issue of R is it's syntax.
+
+### CSV and NoSQL
+
+- more solid schema
